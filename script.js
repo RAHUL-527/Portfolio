@@ -50,7 +50,7 @@ function initNavbar() {
 function initTypingEffect() {
     const typingText = document.getElementById('typing-text');
     const phrases = [
-        'Fullstack Dev',
+        'Software Developer',
         'Vibe Coder', 
         'Problem Solver',
         'Code Explorer',
