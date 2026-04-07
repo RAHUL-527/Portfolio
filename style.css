@@ -284,6 +284,9 @@ body::after {
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
+}
+
+.hero-buttons a{
   text-decoration: none;
 }
 
