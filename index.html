@@ -1,71 +1,30 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Rahul R | Software Developer Portfolio</title> -->
-    <title>Rahul R | Software Developer</title>
-    <meta property="og:title" content="Rahul R | Full Stack Developer Portfolio">
-    <meta property="og:description" content="Explore Rahul's web and AI projects, development skills, and contact info.">
-    <meta property="og:image" content="https://github.com/RAHUL-527/Portfolio/images/me.jpg">
-    <meta property="og:url" content="https://github.com/RAHUL-527/Portfolio">
-    <meta name="description" content="I'm is a passionate full-stack developer skilled in Python, Debugging, and AI solutions. Explore my projects, skills, and contact information.">
-    <meta name="keywords" content="Rahul R, full stack developer, portfolio, Python developer, web development, AI, software engineer, India">
-    <meta name="author" content="Rahul R">
-    <link rel="icon" type="Image/jpeg" href="images/icon.png">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Rahul R",
-            "jobTitle": "Software Developer",
-            "url": "https://github.com/RAHUL-527/Portfolio/",
-            "image": "https://github.com/RAHUL-527/Portfolio/images/me.jpg",
-            "sameAs": [
-                "https://github.com/RAHUL-527",
-                "https://in.linkedin.com/in/rahul-r-05540628a",
-                "https://rahul--r.blogspot.com/"
-            ],
-            "description": "Software developer specializing in web applications, Python automation, and AI projects."
-}
-</script>
-
+    <title>RAHUL R | Portfolio</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header id="navbar">
-    <nav class="nav-container animate-on-scroll slide-in-top">
-            <div class="logo">
-                RAHUL<span class="logo-accent"> R</span>
-            </div>
-            
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            
-            <!-- <div class="nav-social">
-                <a href="" aria-label="GitHub" target="_blank" class="social-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                </a>
-                <a href="" aria-label="Instagram" target="_blank" class="social-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 4a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.5-.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                    </svg>
-                </a>
-                <a href="" aria-label="Facebook" class="social-icon" target="_blank" rel="noopener noreferrer">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-2.9h2V9.5c0-2 1.2-3.2 3-3.2.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.5h2.3L15 14.9h-2v7A10 10 0 0 0 22 12"/>
-                    </svg>
-                </a>
 
-            </div> -->
-            
-            <div class="hamburger" id="hamburger">
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">RAHUL R</div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-code"></i> Projects</a></li>
+                <li><a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -73,307 +32,298 @@
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    
-                            <div class="hero-visual">
-                                <div class="avatar-container">
-                                    <!-- Elemento visual central -->
-                                    <div class="sun-core">
-                                        <img src="images/me.jpg" alt="Rahul Profile Image">
-                                    </div>
+    <!-- Home Section -->
+    <section id="home" class="home-section">
 
-                                    <button class="orbit-icon html random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
+        <!-- Floating background blobs -->
+        <div class="bg-blobs"></div>
 
-                                    <button class="orbit-icon css random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
+        <div class="home-container">
 
-                                    <button class="orbit-icon js random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
+            <!-- Profile Content -->
+            <div class="home-text">
 
-                                    <button class="orbit-icon react random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="React Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
-
-                                    <button class="orbit-icon nodejs random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="Node.js Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
-
-                                    <button class="orbit-icon python random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
-
-                                    <button class="orbit-icon git random-orbit" type="button">
-                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Git Icon" style="width: 100%; height: 100%; object-fit: contain;">
-                                    </button>
-                                </div>
-                            </div>
-                        <div class="hero-text">
-                        <p class="greeting">Hello, I'm Rahul R 👋</p>
-                        <h1 class="hero-title">
-                            <span id="typing-text">Computer Science</span>
-                            <span class="cursor">|</span>
-                        </h1>
-                        <p class="hero-quote">Expanding skills and discovering new ways to innovate</p>
-                        <!-- <div class="hero-buttons">
-                           <button class="glow-genz-button"><a href="https://drive.google.com/file/d/1Wm4IA2zLxZ4SYSHsRvO1uJpmzEbYnyhK/view?usp=sharing">Download Resume</a></button>
-                        </div> -->
-                        <div class="hero-social">
-                            <a href="https://in.linkedin.com/in/rahul-r-05540628a" class="social-link" aria-label="LinkedIn" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                </svg>
-                            </a>
-                            <!-- <a href=""social-link"  target="_blank" aria-label="Instagram">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 4a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.5-.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                                </svg>
-                            </a> -->
-                            <a href="https://wa.me/918903728716" class="social-link" aria-label="WhatsApp" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-                                </svg>
-                            </a>
-                            <a href="https://rahul--r.blogspot.com/" class="social-link" aria-label="Blogger" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <!-- <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/> -->
-                                    <path d="M21.976 24H2.026C.9 24 0 23.1 0 21.976V2.026C0 .9 .9 0 2.025 0H22.05C23.1 0 24 .9 24 2.025v19.95C24 23.1 23.1 24 21.976 24zM12 3.975H9c-2.775 0-5.025 2.25-5.025 5.025v6c0 2.774 2.25 5.024 5.025 5.024h6c2.774 0 5.024-2.25 5.024-5.024v-3.975c0-.6-.45-1.05-1.05-1.05H18c-.524 0-.976-.45-.976-.976 0-2.776-2.25-5.026-5.024-5.026zm3.074 12H9c-.525 0-.975-.45-.975-.975s.45-.976.975-.976h6.074c.526 0 .977.45 .977.976s-.45.976-.975.976zm-2.55-7.95c.527 0 .976.45 .976.975s-.45.975-.975.975h-3.6c-.525 0-.976-.45-.976-.975s.45-.975.975-.975h3.6z"/>
-                                </svg>
-                            </a>
-                            <a href="https://github.com/RAHUL-527/" class="social-link" aria-label="GitHub" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+                <h3 class="intro">Hi, I'm</h3>
+                <h1 class="name">RAHUL R</h1>
+                <h2 class="role">
+                    <span class="glow">Software Developer</span>
+                </h2>
+                <!-- Typing text -->
+                <p class="typing-text">
+                    <span id="typing"></span>
+                </p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
                 </div>
             </div>
-        </section>
 
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text slide-in-left">
-                <p>I'm Rahul, a software developer exploring diverse fields of technology - from software and web development to artificial intelligence solutions. My goal is to continuously grow my skills and expand my horizons.</p>
-                        <div class="skills">
-                            <h3>Skills & Tools</h3>
-                            <div class="skills-grid">
-                                <span class="skill-tag">C</span>
-                                <span class="skill-tag">C++</span>
-                                <span class="skill-tag">Java</span>
-                                <span class="skill-tag">Python</span>
-                                <span class="skill-tag">PHP</span>
-                                <span class="skill-tag">Debugging</span>
-                                <span class="skill-tag">Digital Marketing</span>
-                                <span class="skill-tag">Communication</span>
-                                <!-- <span class="skill-tag">Canva</span> -->
-                                <span class="skill-tag">AI Tools</span>
-                                <!-- <span class="skill-tag">Gemini</span> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-visual slide-in-right">
-                        <div class="code-animation">
-                            <div class="code-line">dist developer = {</div>
-                            <div class="code-line indent">name: 'Rahul',</div>
-                            <div class="code-line indent">role: 'Software Developer',</div>
-                            <div class="code-line indent">passion: 'Building solutions that move lives forward'</div>
-                            <div class="code-line">}</div>
-                        </div>
-                    </div>
+            <!-- Profile Image-->
+            <div class="home-image-wrapper">
+
+                <div class="glass-frame">
+                    <img src="assets/images/profile-img.jpg" alt="RAHUL">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+
+            <!-- LEFT: About Text -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate software developer who loves building modern software applications with 
+                    clean, scalable code. I enjoy solving complex problems and creating interactive user experiences.
+                </p>
+                <p>
+                    My focus is on software development using modern technologies. 
+                    I aim to contribute to projects that make a real impact.
+                </p>
+            </div>
+
+            <!-- RIGHT: Floating Skill Cloud -->
+            <div class="about-skills">
+                <div class="skill-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                <!-- <div class="skill-card"><i class="devicon-react-original colored"></i><span>React</span></div>
+                <div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+                <div class="skill-card"><i class="devicon-tailwindcss-plain colored"></i><span>Tailwind</span></div>
+                <div class="skill-card"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div> -->
+                <div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+                <div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+                <div class="skill-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+                <div class="skill-card"><i class="devicon-mysql-plain colored"></i><span>MYSQL</span></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="assets/images/mgrtraders.png" alt="Project 1">
+            <h3>MGR Traders</h3>
+            <p>Official website for MGR Traders, providing an online presence and showcasing products and services.</p>
+            <div class="tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+            </div>
+            <div class="project-buttons">
+                <a href="mgrtraders.in" class="btn">Live</a>
+                <!-- <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/vcas.png" alt="Project 2">
+            <h3>Vidyasagar College of Arts and Science</h3>
+            <p>Website for Vidyasagar College of Arts and Science, offering information about academics, events, and campus resources.</p>
+            <div class="tech-stack">
+                <span>PHP</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>MySQL</span>
+            </div>
+            <div class="project-buttons">
+                <a href="www.vidyasagarcollege.org" class="btn">Live</a>
+                <!-- <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/annavasal.png" alt="Project 3">
+            <h3>Annavasal Hotel</h3>
+            <p>Website for Annavasal Hotel, showcasing menus, services, and online presence for customers.</p>
+            <div class="tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+            </div>
+            <div class="project-buttons">
+                <a href="annavasalhotel.com" class="btn">Live</a>
+                <!-- <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/lucifer.png" alt="Project 4">
+            <h3>Lucifer - An Intelligent AI Virtual Assistant</h3>
+            <p>Built an AI assistant for automation, scheduling, and user authentication.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/SAIIPACA.png" alt="Project 5">
+            <h3>Smart AI Interview Platform For Automated Candidate Assessment</h3>
+            <p>AI-powered interview platform that automates candidate assessment for efficient and unbiased hiring.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/IPS.png" alt="Project 6">
+            <h3>Robust Pet Animal Image Prediction System</h3>
+            <p>AI-based system that accurately predicts and classifies pet animal images.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/jarvis.png" alt="Project 7">
+            <h3>Jarvis – The Campus Buddy</h3>
+            <p>Built an AI chatbot to assist students and handle common campus queries.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/Drowsiness.png" alt="Project 8">
+            <h3>Drowsiness and Gaze Detection System</h3>
+            <p>Created a system to detect driver drowsiness and monitor gaze for safety.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/segcryptx.png" alt="Project 9">
+            <h3>SegcryptX</h3>
+            <p>Developed a tool for secure data encryption and decryption.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/images/cursor.png" alt="Project 10">
+            <h3>Robust Cursor Interface Based on Hand Gestures</h3>
+            <p>Developed a system to control the computer cursor using hand gestures.</p>
+            <div class="tech-stack">
+                <span>Python</span>
+            </div>
+            <div class="project-buttons">
+                <!-- <a href="#" class="btn">Live</a>
+                <a href="#" class="btn secondary">GitHub</a> -->
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <!-- Timeline Item Example -->
+            <div class="timeline-item">
+                <div class="timeline-date">Jun 2025 - Mar 2026</div>
+                <div class="timeline-content">
+                    <h3>Technology Trainer | R2C Technologies</h3>
+                    <p>Conducting training sessions on programming and robotic fundamentals and assisting students in coding and robotic projects.</p>
                 </div>
             </div>
-        </section>
-
-         <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">My Projects</h2>
-                <div class="projects-grid slide-in-up">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="" alt="Vidyasagar College">
-                        </div>
-                        <div class="project-content">
-                            <h3>Vidyasagar College of Arts and Science</h3>
-                            <p>Official Website for the Vidyasagar College of Arts and Science</p>
-                            <div class="project-tech">
-                                <span>PHP</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://vidyasagarcollege.org/" class="project-link">Live Demo</a>
-                                <!-- <a href="#" class="project-link">GitHub</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/annavasal.png" alt="Annavasal Hotel Website">
-                        </div>
-                        <div class="project-content">
-                            <h3>Annavasal Restaurant</h3>
-                            <p>The Annavasal Hotel website is a modern, user-friendly platform designed to showcase the hotel’s rooms, amenities, dining, and local attractions while enabling seamless online reservations and enhancing guest engagement through an elegant and responsive design.</p>
-                            <div class="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://annavasalhotel.com" class="project-link">Live Demo</a>
-                                <!-- <a href="#" class="project-link">GitHub</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/cursor.png" alt="Cursor Interface based on Hand Gesture Project">
-                        </div>
-                        <div class="project-content">
-                            <h3>Cursor interface based on hand gesture</h3>
-                            <p>The Robust Cursor Interface based on Hand Gesture is an intelligent hand-gesture based system that enables touchless control of the computer cursor, allowing users to move the pointer, perform left and right clicks, scroll up and down, and adjust system brightness and volume seamlessly through intuitive hand gestures.</p>
-                            <div class="project-tech">
-                                <span>Python 3.10</span>
-                            </div>
-                            <!-- <div class="project-links">
-                                <a href="#" class="project-link">Live Demo</a>
-                                <a href="#" class="project-link">GitHub</a>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/jarvis.png" alt="Jarvis - AI Chatbot for College">
-                        </div>
-                        <div class="project-content">
-                            <h3>Jarvis - The Campus Buddy</h3>
-                            <p>An Jarvis – The Campus Buddy is an AI-powered chatbot designed for seamless integration into the college website, delivering instant assistance to students and visitors by answering queries, providing campus information, guiding the admissions process, and offering real-time support for academic and administrative services.</p>
-                            <div class="project-tech">
-                                <span>Python 3.13</span>
-                            </div>
-                            <!-- <div class="project-links">
-                                <a href="#" class="project-link">Live Demo</a>
-                                <a href="#" class="project-link">GitHub</a>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/segcryptx.png" alt="Stegnography and Cryptography Project">
-                        </div>
-                        <div class="project-content">
-                            <h3>Segcryptx</h3>
-                            <p>Segcryptx is a secure application that combines steganography and cryptography to encrypt sensitive data and conceal it within digital media, ensuring enhanced data protection and confidential information exchange.</p>
-                            <div class="project-tech">
-                                <span>Python 3.13</span>
-                            </div>
-                            <!-- <div class="project-links">
-                                <a href="#" class="project-link">Live Demo</a>
-                                <a href="#" class="project-link">GitHub</a>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/drowsiness.jpg" alt="Drowsiness and Gaze Detection Project">
-                        </div>
-                        <div class="project-content">
-                            <h3>Drowsiness and Gaze Detection System</h3>
-                            <p>The Drowsiness and Gaze Detection System is an intelligent safety solution that monitors driver alertness and eye movements in real time to detect fatigue and inattentiveness, helping prevent accidents and enhance overall road safety.</p>
-                            <div class="project-tech">
-                                <span>Python 3.10</span>
-                            </div>
-                            <!-- <div class="project-links">
-                                <a href="#" class="project-link">Live Demo</a>
-                                <a href="#" class="project-link">GitHub</a>
-                            </div> -->
-                        </div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Jan 2025 - May 2025</div>
+                <div class="timeline-content">
+                    <h3>Intern Trainee | R2C Technologies</h3>
+                    <p>Supported live projects, assisted in debugging, and contributed to internal tool development.</p>
                 </div>
             </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-content">
-                    <div class="contact-info slide-in-left">
-                        <p>Let's collaborate! I am always open to discussing exciting projects and new opportunities.</p>
-                        <div class="contact-details">
-                            <div class="contact-item">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                                </svg>
-                                <span>rahulr.techdev@gmail.com</span>
-                            </div>
-                            <div class="contact-item">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-                                </svg>
-                                <span>+91 8903728716</span>
-                            </div>
-                            <div class="contact-item">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                                </svg>
-                                <span>Udumalpet, Tamilnadu</span>
-                            </div>
-                        </div>
-                        <div class="social-links">
-                            <a href="https://github.com/RAHUL-527/" class="social-link" aria-label="GitHub" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                </svg>
-                            </a>
-                            <a href="https://in.linkedin.com/in/rahul-r-05540628a" class="social-link" aria-label="LinkedIn" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                                </svg>
-                            </a>
-                            <a href="https://wa.me/918903728716" class="social-link" aria-label="WhatsApp" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-                                </svg>
-                            </a>
-                            <a href="https://rahul--r.blogspot.com/" class="social-link" aria-label="Blogger" target="_blank">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <!-- <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/> -->
-                                    <path d="M21.976 24H2.026C.9 24 0 23.1 0 21.976V2.026C0 .9 .9 0 2.025 0H22.05C23.1 0 24 .9 24 2.025v19.95C24 23.1 23.1 24 21.976 24zM12 3.975H9c-2.775 0-5.025 2.25-5.025 5.025v6c0 2.774 2.25 5.024 5.025 5.024h6c2.774 0 5.024-2.25 5.024-5.024v-3.975c0-.6-.45-1.05-1.05-1.05H18c-.524 0-.976-.45-.976-.976 0-2.776-2.25-5.026-5.024-5.026zm3.074 12H9c-.525 0-.975-.45-.975-.975s.45-.976.975-.976h6.074c.526 0 .977.45 .977.976s-.45.976-.975.976zm-2.55-7.95c.527 0 .976.45 .976.975s-.45.975-.975.975h-3.6c-.525 0-.976-.45-.976-.975s.45-.975.975-.975h3.6z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- <div class="contact-form slide-in-right">
-                        <form id="contact-form">
-                            <div class="form-group">
-                                <input type="text" placeholder="Your Name" required name="user_name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" placeholder="Your Email" required name="user_email">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                            </div>
-                            <button type="submit" class="glow-genz-button">Send Message</button>
-                        </form>
-                    </div> -->
+            <div class="timeline-item">
+                <div class="timeline-date">Nov 2024 - Dec 2025</div>
+                <div class="timeline-content">
+                    <h3>Student Intern | R2C Technologies</h3>
+                    <p>Gained exposure to software development life cycle and hands-on coding practices.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </main>
-    <script src="script.js" defer></script>
-    <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js" async></script>
-    <script>
-      (function(){
-         emailjs.init("YOUR_PUBLIC_KEY"); 
-      })();
-    </script> -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <form action="#" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> rahulr.techdev@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91 8903728716</p>
+            <div class="social-links">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/+918903728716" target="_blank" title="Chat on WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <!-- Email -->
+                <a href="mailto:rahulr.techdev@gmail.com" target="_blank" title="Send Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://in.linkedin.com/in/rahul-r-05540628a" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/RAHUL-527/" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link JS -->
+    <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/darkmode.js"></script>
 </body>
 </html>
