@@ -733,6 +733,14 @@ header {
         margin-bottom: 30px;
     }
 
+    .timeline-date{
+        text-align: left;
+    }
+
+    .timeline-content{
+        text-align: left;
+    }
+
     .timeline::after {
         left: 20px;
     }
